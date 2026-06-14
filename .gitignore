@@ -1,0 +1,30 @@
+# Python caches & bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Data (Crucial to ignore!)
+data/
+input.csv
+results.csv
+
+# Application & Operational Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific metadata files
+.DS_Store
+Thumbs.db
